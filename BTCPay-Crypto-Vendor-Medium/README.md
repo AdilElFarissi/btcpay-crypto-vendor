@@ -20,7 +20,8 @@ Unfortunately, due to a technical issue in Opensim, uploading linksets does not 
 Click the **Link** button in your editor... Now you have just to port and setup the script, add items and voila! 
 
 ## About BTCPay Server:
-- What is BTCPay Server?
+### What is BTCPay Server?
+
 BTCPay Server is a free, open-source & self-hosted cryptocurrencies payment gateway and automated invoicing software that allows self-sovereign individuals and businesses to accept cryptocurrencies payments online or in person without any fees or third-parties. You can install it aside your Opensim or in a VPS and use it in private or shared modes...
 
 At checkout, a customer is presented with an invoice that she/he pay from her/his wallet directly to your own wallet. BTCPay Server follows the status of the invoice through the blockchain and informs you when the payment has been settled so that you can fulfill the order... In our case, the vendor deliver the purchased item.
@@ -33,7 +34,8 @@ If you can't or don't want to install BTCPay, you can use a public instance prov
 You can find some third-party hosts here:
 [https://directory.btcpayserver.org/filter/hosts](https://directory.btcpayserver.org/filter/hosts)
 
-- Training and Practice.
+### Training and Practice.
+
 BTCPay team offers a demo platform linked to the Bitcoin (Test-net) where you can try and use for training with fake BTCs (free coins). Is what i used to develop this vendor... So, create an account here and follow the docu to setup your store to get your storeID. You can also setup a Hot Wallet (bad practice in production) to receive BTC test coins...
 [https://testnet.demo.btcpayserver.org/register](https://testnet.demo.btcpayserver.org/register)
 
