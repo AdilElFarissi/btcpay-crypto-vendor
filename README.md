@@ -30,16 +30,21 @@ BTCPay Server is a free, open-source & self-hosted cryptocurrencies payment gate
 At checkout, a customer is presented with an invoice that she/he pay from her/his wallet directly to your own wallet. BTCPay Server follows the status of the invoice through the blockchain and informs you when the payment has been settled so that you can fulfill the order... In our case, the vendor deliver the purchased item.
 
 I strongly recommend you to read the BTCPay documentation before the usage of this vendor here:
+
 [https://docs.btcpayserver.org/Guide/](https://docs.btcpayserver.org/Guide/)
 
 If you can't or don't want to install BTCPay, you can use a public instance provided by third-party hosts but read this first:
+
 [https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/](https://docs.btcpayserver.org/Deployment/ThirdPartyHosting/)
+
 You can find some third-party hosts here:
+
 [https://directory.btcpayserver.org/filter/hosts](https://directory.btcpayserver.org/filter/hosts)
 
 ### Training and Practice.
 
 BTCPay team offers a demo platform linked to the Bitcoin (Test-net) where you can try and use for training with fake BTCs (free coins). Is what i used to develop this vendor... So, create an account here and follow the docu to setup your store to get your storeID. You can also setup a Hot Wallet (bad practice in production) to receive BTC test coins...
+
 [https://testnet.demo.btcpayserver.org/register](https://testnet.demo.btcpayserver.org/register)
 
 ## Setting The Vendor:
@@ -54,6 +59,7 @@ Next, open the script and modify the needed parameters...
 - Set your BTCPay Server URL where you have installed it or your host URL... By default i set it to the BTCPay test-net for the demo.
 
 - Set the IP of the BTCPay URL/server. This is used to filter the incoming HTTP for security. If you don't know it, use this:
+
 https://www.nslookup.io/website-to-ip-lookup/
 
 - Set your store ID: You can get your store ID from your BTCPay account. Click "Settings" in the left menu... the store ID is the first thing in the page. In the same page scroll down and **activate "Allow anyone to create invoice"**... scroll down and click save. Copy/Paste the store ID from BTCPay to the script.
@@ -61,7 +67,9 @@ https://www.nslookup.io/website-to-ip-lookup/
 - Set the fiat currency to display. This setting affects the calculation of the equivalent in cryptos based on the current rate... sometime its give more coins using USD... sometime EUR or GBP. You can set one of all the the fiat currencies supported by the data source (see in BTCPay: Settings>Rates). eg: USD, EUR, GBP...
 
 - Set the crypto that you want to receive as payment. you can set here one of all the cryptos supported by BTCPay and you have set in your BTCPay wallets section. eg: BTC, DOGE, LTC, XMR... By default, BTCPay use Kraken as data source, you can see the available pairs here :
+
 [https://support.kraken.com/articles/kraken-markets](https://support.kraken.com/articles/kraken-markets)
+
 [https://docs.btcpayserver.org/FAQ/Altcoin/#which-coins-does-btcpay-server-support](https://docs.btcpayserver.org/FAQ/Altcoin/#which-coins-does-btcpay-server-support)
 
 - Optional: Set the other parameters if needed. Read the parameters  comments for more infos.
@@ -85,9 +93,13 @@ Theoretically you can add an unlimited number of objects but as you know and exp
 
 ## Usage:
 1- Use the navigation buttons to browse the contents...
+
 2- Select an item in the mini screens...
+
 3- Click [Description] to get the item infos...
+
 4- Click the main screen or [Purchase] button to buy the selected item.
+
 5- Enjoy :)
 
 ## The BTCPay Crypto Vendor License:
@@ -104,11 +116,17 @@ https://github.com/AdilElFarissi
 Usually nobody cares about the developers and the creators of the free and open source contents... but if you think that my work deserves more than a simple thank you, consider making a small donation using paypal or others here:
 
 BTC: bc1ququ5vxy3yfpqn6dd5p4xfnk35ljfgem2jf2tf2
+
 LTC: LL6dMuxLCWy6rB7h3AHCR5nkvdV6SoFNEk
+
 ETH: 0xa3E82b8D653Db863dBB557C8Ed8A01f6570bd990
+
 USDT ETH Network: 0xa3E82b8D653Db863dBB557C8Ed8A01f6570bd990
+
 USDT SOL Network: 4NzQh2wW8yxsmQzs5mVdQaaRkcpvvuonj439sQ67DgDv
+
 DOGE: DFPrdKUtYJS8jqPpmECypdQPumCykK5jHp
+
 XMR: 4AEJf5HiQkiiafQRzV2gmfJjUHEKUSgetjb7bqn7fQQ7GfJe21nmE29GMBhV1z6pvC45yVKVkvAH97cp4bkPpJHH4m3gZfQ
 
 Thank You Very Much :)
