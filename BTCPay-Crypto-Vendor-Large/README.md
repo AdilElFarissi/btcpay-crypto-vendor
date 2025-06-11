@@ -65,6 +65,7 @@ https://www.nslookup.io/website-to-ip-lookup/
 - Set the crypto that you want to receive as payment. you can set here one of all the cryptos supported by BTCPay and you have set in your BTCPay wallets section. eg: BTC, DOGE, LTC, XMR... By default, BTCPay use Kraken as data source, you can see the available pairs here :
 
 [https://support.kraken.com/articles/kraken-markets](https://support.kraken.com/articles/kraken-markets)
+
 [https://docs.btcpayserver.org/FAQ/Altcoin/#which-coins-does-btcpay-server-support](https://docs.btcpayserver.org/FAQ/Altcoin/#which-coins-does-btcpay-server-support)
 
 - Optional: Set the other parameters if needed. Read the parameters  comments for more infos.
@@ -103,7 +104,7 @@ In less words... Keep it free and make it (if you can) better for the others...
 
 ## About The Author:
 Adil El Farissi, known as Web Rain in SL and OSGrid, I am an eternal amateur in action, hobbyist programmer, virtual worlds builder and crypto enthusiast... 
-Between my modest contributions to the OpenSim saga there is the LinkInventory functions allowing the linked prims contents manipulations (used in this Hyperfreebies Giver) and the some security functions like the AES encryptor/decryptor...
+Between my modest contributions to the OpenSim saga there is the LinkInventory functions allowing the linked prims contents manipulations and the some security functions like the AES encryptor/decryptor...
 Feel free to visit my Github for more open source stuff:
 https://github.com/AdilElFarissi
 
