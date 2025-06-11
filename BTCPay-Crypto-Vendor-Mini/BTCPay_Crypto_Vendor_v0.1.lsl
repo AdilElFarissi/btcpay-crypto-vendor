@@ -68,7 +68,7 @@ BuildItemsLists(){
     list names = osGetInventoryNames(INVENTORY_TEXTURE);
     for(integer i=0; i<llGetListLength(names); i++){
         if(osStringStartsWith(llList2String(names, i) ,"img_",0)){
-            list desc = llParseString2List(llGetInventoryDesc(llList2String(names, i)),["#"],[]);
+            list desc = llParseString2List(osGetInventoryDesc(llList2String(names, i)),["#"],[]);
             if(llList2Float(desc,0) > 0){ 
                 namesList += llList2String(names, i);
             }
@@ -271,7 +271,7 @@ requestInvoice(){
 
 updateProductInfo(){
     string texture = llGetTexture(0);
-    list data = llParseString2List(llGetInventoryDesc(texture),["#"],[]);
+    list data = llParseString2List(osGetInventoryDesc(texture),["#"],[]);
     productName = "";
     productDescription = "";
     if(osStringStartsWith(texture ,"img_",0)){

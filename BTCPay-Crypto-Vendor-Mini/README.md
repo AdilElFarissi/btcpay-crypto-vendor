@@ -1,5 +1,5 @@
-# BTCPay Crypto Vendor
-![Screenshot of the BTCPay Crypto Vendor Large version.](/Illustrations/BTCPay_Crypto_Vendor_Large.jpg)
+# BTCPay Crypto Vendor Mini
+![Screenshot of the BTCPay Crypto Vendor Mini version.](/Illustrations/BTCPay_Crypto_Vendor_Mini.jpg)
 
 ## Version Notes:
 BTCPay Crypto Vendor v0.1.
@@ -14,13 +14,10 @@ Unfortunately, due to a technical issue in Opensim, uploading linksets does not 
 3. The **Description** button.
 4. The **right navigation** button.
 5. The **left navigation** button.
-6. The mini screens : always from the right bottom to the top left.
- - For the Mini version: from the bottom right to top right and from the bottom left to the top left.
- - For the Medium version: from right to left in each level from bottom to top.
- - For the Large version: from right to left in each level from bottom to top in the right side and the same in the left side.
+6. The mini screens : from the bottom right to top right and from the bottom left to the top left.
 7. Finally the main screen which must be the root prim.
  
-Click the **Link** button in your editor... Now you have just to port and setup the script, add items and voila! 
+Click the **Link** button in your editor... Now you have just to port and setup the script, add itemsand voila! 
 
 ## About BTCPay Server:
 - What is BTCPay Server?
