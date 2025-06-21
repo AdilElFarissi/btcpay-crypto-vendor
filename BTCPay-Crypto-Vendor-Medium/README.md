@@ -73,9 +73,9 @@ https://www.nslookup.io/website-to-ip-lookup/
 
 ## Add items:
 For each product you need 2 items: the object to sale and a representative image.
-1. Set the same name to your texture as your object but prefixed with "img_". For example:
+1. Set the same name to your texture as your object but prefixed with "img_". For example:<pre>
 Object name: My Nice Product
-Texture name: img_My Nice Product
+Texture name: img_My Nice Product</pre>
 
 2. Set the price and some info about your product in the description of your texture separated by "#". This description will be visible to the avatars in the chat when they click the [Description] button. For example:
 <pre>3.25#My item to sell description.</pre>
@@ -107,7 +107,10 @@ In less words... Keep it free and make it (if you can) better for the others...
 Adil El Farissi, known as Web Rain in SL and OSGrid, I am an eternal amateur in action, hobbyist programmer, virtual worlds builder and crypto enthusiast... 
 Between my modest contributions to the OpenSim saga there is the LinkInventory functions allowing the linked prims contents manipulations and the some security functions like the AES encryptor/decryptor...
 Feel free to visit my Github for more open source stuff:
+
 https://github.com/AdilElFarissi
+
+Note: I am not affiliated or work with/for Opensimulator , BTCPay, NSL... I just add my magic touch where i feel it is necessary for the common good.
 
 ## My Tip-Jars:
 Usually nobody cares about the developers and the creators of the free and open source contents... but if you think that my work deserves more than a simple thank you, consider making a small donation using paypal or others here:
