@@ -76,6 +76,7 @@ https://www.nslookup.io/website-to-ip-lookup/
 
 ## Add items:
 For each product you need 2 items: the object to sale and a representative image.
+
 1. Set the same name to your texture as your object but prefixed with "img_". For example:<pre>
 Object name: My Nice Product
 Texture name: img_My Nice Product</pre>
@@ -86,7 +87,7 @@ Texture name: img_My Nice Product</pre>
 3. Place your object and texture in the content of the root prim (main screen). There is 2 ways to do that:
 - Method 1: Click and hold CTRL in your keyboard, select your object and texture and drag both to the main screen and drop... The screen will show an orange halo if you did it well.
 
-- Method 2: Click right The BTCPay Crypto Vendor and select "Edit" in the menu... In the editor click "Contents" tab... Next, select your object and texture and drag both from your inventory to the contents tab.
+- Method 2: Click right The BTCPay Crypto Vendor and select "Edit" in the menu... In the editor click "Content" tab... Next, select your object and texture and drag both from your inventory to the contents tab.
 
 That it!, 
 Theoretically you can add an unlimited number of objects but as you know and experienced, when we exceed 100 objects(+textures) we start to have problems loading the contents of the buttons... as a solution i added an admin menu allowing you to manage, make a backup and delete objects without having to open the contents tab.
