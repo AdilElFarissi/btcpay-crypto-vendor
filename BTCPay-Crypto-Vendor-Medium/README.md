@@ -1,5 +1,5 @@
 # BTCPay Crypto Vendor Medium Right & Left
-![Screenshot of the BTCPay Crypto Vendor Medium version.](/Illustrations/BTCPay_Crypto_Vendor_Medium.jpg)
+![Screenshot of the BTCPay Crypto Vendor Medium version.](https://i.postimg.cc/0jsk5HJ5/BTCPay-Crypto-Vendor-Medium.jpg)
 
 ## Version Notes:
 BTCPay Crypto Vendor v0.1.
