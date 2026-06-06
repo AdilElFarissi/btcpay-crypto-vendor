@@ -1,5 +1,5 @@
 # BTCPay Crypto Vendor Large
-![Screenshot of the BTCPay Crypto Vendor Large version.](/Illustrations/BTCPay_Crypto_Vendor_Large.jpg)
+![Screenshot of the BTCPay Crypto Vendor Large version.](https://i.postimg.cc/50v9VMyG/BTCPay-Crypto-Vendor-Large.jpg)
 
 ## Version Notes:
 BTCPay Crypto Vendor v0.1.
