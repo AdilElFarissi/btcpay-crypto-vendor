@@ -1,5 +1,5 @@
 # BTCPay Crypto Vendor Mini
-![Screenshot of the BTCPay Crypto Vendor Mini version.](/Illustrations/BTCPay_Crypto_Vendor_Mini.jpg)
+![Screenshot of the BTCPay Crypto Vendor Mini version.](https://i.postimg.cc/NFkgK710/BTCPay-Crypto-Vendor-Mini.jpg)
 
 ## Version Notes:
 BTCPay Crypto Vendor v0.1.
